@@ -3,6 +3,8 @@
 
 ## Executive Summary
 This project implements a 1D-Convolutional Neural Network (1D-CNN) to predict geological layers (TVT) in real-time during horizontal drilling. By processing spatial coordinates and Gamma Ray sensor data, the model identifies geological transitions to help automate geosteering operations.
+![Missing Data Map](missing_data.png)
+![Gamma Ray Readings](gr_plot.png)
 
 ## Key Features
 - **Memory-Optimized Pipeline**: Reduced dataset footprint by 50% using strategic downcasting.
